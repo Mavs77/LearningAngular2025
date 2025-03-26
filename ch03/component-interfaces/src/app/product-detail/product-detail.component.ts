@@ -6,10 +6,11 @@ import {
   output,
 } from '@angular/core';
 import { Product } from '../product';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-detail',
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './product-detail.component.html',
   styleUrl: './product-detail.component.css',
   encapsulation: ViewEncapsulation.Emulated,
